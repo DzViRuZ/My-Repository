@@ -2,7 +2,7 @@ CalculateXp(currentLevel, targetLevel){
     var total:number= 0;
 
     if (targetLevel - currentLevel <10){
-      var index:number= Math.ceil(currentLevel / 10);
+      var index:number= Math.ceil(targetLevel / 10);
       total = (targetLevel - currentLevel) * index *100;
     }else{
 
